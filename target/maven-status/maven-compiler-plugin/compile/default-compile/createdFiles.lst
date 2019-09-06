@@ -1,0 +1,5 @@
+com\bdd\pages\HomePage.class
+com\bdd\pages\LoginPage.class
+com\bdd\util\TestUtil.class
+com\bdd\pages\ShippingPage.class
+com\bdd\base\TestBase.class

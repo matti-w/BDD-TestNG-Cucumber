@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UPS Test Suite" >
+
+	<test  name="UPS Runner Test">
+		<classes>
+			<class name="runner.LoginTestRunner" />
+			<class name="runner.ShippingTestRunner" />
+		</classes>
+
+	</test> 
+</suite> 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-06T20:28:08Z" name="UPS Test Suite" finished-at="2019-09-06T20:28:52Z" duration-ms="44579">
+    <groups>
+      <group name="cucumber">
+        <method signature="LoginTestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginTestRunner@3c3d9b6b]" name="feature" class="runner.LoginTestRunner"/>
+        <method signature="ShippingTestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.ShippingTestRunner@385e9564]" name="feature" class="runner.ShippingTestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2019-09-06T20:28:08Z" name="UPS Runner Test" finished-at="2019-09-06T20:28:52Z" duration-ms="44579">
+      <class name="runner.ShippingTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.ShippingTestRunner@385e9564]" started-at="2019-09-06T16:28:31Z" name="setUpClass" finished-at="2019-09-06T16:28:31Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.ShippingTestRunner@385e9564]" started-at="2019-09-06T16:28:31Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-06T16:28:52Z" duration-ms="21354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Create shipping]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.ShippingTestRunner@385e9564]" started-at="2019-09-06T16:28:52Z" name="tearDownClass" finished-at="2019-09-06T16:28:52Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.ShippingTestRunner -->
+      <class name="runner.LoginTestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.LoginTestRunner@3c3d9b6b]" started-at="2019-09-06T16:28:08Z" name="setUpClass" finished-at="2019-09-06T16:28:08Z" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.LoginTestRunner@3c3d9b6b]" started-at="2019-09-06T16:28:08Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-06T16:28:31Z" duration-ms="22818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UPS.com Login feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.LoginTestRunner@3c3d9b6b]" started-at="2019-09-06T16:28:31Z" name="tearDownClass" finished-at="2019-09-06T16:28:31Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LoginTestRunner -->
+    </test> <!-- UPS Runner Test -->
+  </suite> <!-- UPS Test Suite -->
+</testng-results>
